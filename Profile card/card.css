@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Kumbh Sans;
+}
+.bg {
+  position: relative;
+  background-color: hsl(185, 75%, 39%);
+  height: 100vh;
+  overflow: hidden;
+}
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+img.top {
+  position: absolute;
+  height: 200%;
+  bottom: 40%;
+  right: 40%;
+}
+
+img.bot {
+  position: absolute;
+  height: 200%;
+  left: 40%;
+  top: 40%;
+}
+.card {
+  width: 350px;
+  height: 400px;
+  background-color: white;
+  overflow: hidden;
+  border-radius: 10px;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 10px 30px 0 #00000069;
+}
+.images {
+  position: relative;
+}
+img.bg2 {
+  position: absolute;
+}
+img.v {
+  position: absolute;
+  top: 80px;
+  left: 35%;
+  border-radius: 50%;
+  border: 8px solid white;
+  object-fit: cover;
+}
+.name {
+  margin-top: 200px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.name h1 {
+  color: hsl(229, 23%, 23%);
+}
+.name span,
+p {
+  color: hsl(227, 10%, 46%);
+}
+.name p,
+.media p {
+  letter-spacing: 2px;
+}
+.media {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 25px;
+  padding-top: 25px;
+  border-top: 1px solid hsl(227, 10%, 46%);
+}

@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "outfit";
+}
+BG {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(217, 54%, 11%);
+}
+.holder {
+  padding: 20px;
+  background-color: hsl(216, 50%, 16%);
+  width: 250px;
+  height: 450px;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.images {
+  position: relative;
+  background-image: url(images/image-equilibrium.jpg);
+  width: 250px;
+  height: 250px;
+  border-radius: 5px;
+  background-size: cover;
+}
+
+.layer {
+  position: absolute;
+  border-radius: 5px;
+  height: 100%;
+  width: 100%;
+  background-image: url(images/image-equilibrium.jpg);
+  background-size: cover;
+
+  z-index: 1;
+}
+.layer:hover {
+  background: hsla(178, 100%, 50%, 0.509);
+  background-size: cover;
+  z-index: 0;
+  cursor: pointer;
+}
+.images img.view {
+  position: absolute;
+  margin: 100px 0 0 100px;
+  z-index: 0;
+}
+.bio h1 {
+  color: white;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.bio h1:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+.bio p {
+  font-size: 14px;
+  width: 100%;
+  color: hsl(215, 51%, 70%);
+}
+.price {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.price div {
+  width: 40%;
+
+  display: flex;
+}
+.ETH {
+  height: 14px;
+}
+.price p.S {
+  margin-left: 5px;
+  font-size: 12px;
+  color: hsl(178, 100%, 50%);
+}
+.clock {
+  margin-left: 26px;
+  height: 14px;
+}
+.price p.C {
+  margin-left: 5px;
+  font-size: 12px;
+  color: hsl(215, 51%, 70%);
+}
+.artist {
+  display: flex;
+  font-size: 14px;
+  padding-top: 10px;
+  width: 100%;
+  border-top: 1px solid hsl(215, 51%, 70%);
+  color: hsl(215, 51%, 70%);
+}
+.avatar {
+  border-radius: 50%;
+  margin-right: 10px;
+  border: 1px solid white;
+  height: 25px;
+}
+.artist span {
+  color: white;
+}
+.artist span:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
