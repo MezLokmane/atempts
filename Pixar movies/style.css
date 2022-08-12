@@ -8,7 +8,7 @@
 nav {
   display: flex;
   justify-content: space-around;
-  margin: 2.5% 10%;
+  margin: 3.2% 10%;
 }
 .logo {
   width: 15%;
@@ -27,12 +27,6 @@ nav {
 }
 .links a:hover {
   color: #b2b2b2;
-}
-.link2 {
-  display: flex;
-  flex-direction: column;
-  align-items: end;
-  gap: 10px;
 }
 .dropdown {
   position: relative;
@@ -74,7 +68,7 @@ article {
 }
 .top {
   background-color: white;
-  height: 15vh;
+  height: 10vh;
 }
 .text {
   display: flex;
@@ -88,7 +82,7 @@ article {
 }
 .bot {
   background-color: white;
-  height: 25vh;
+  height: 26vh;
 }
 .container {
   display: flex;
@@ -145,7 +139,7 @@ footer {
   text-align: center;
   font-weight: 300;
   color: #1d1d1d;
- padding-bottom: 50px;
+  padding-bottom: 50px;
 }
 footer a {
   letter-spacing: 5px;
@@ -155,12 +149,9 @@ footer a {
 }
 footer a:hover {
   color: #777777;
-
- 
- 
 }
 footer p {
-    color: #1d1d1d;
+  color: #1d1d1d;
   font-size: 16px;
   margin: 30px 0 0 0;
 }
